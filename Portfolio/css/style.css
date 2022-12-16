@@ -1,0 +1,1015 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* css for header starts here  */
+
+header {
+    width: 100%;
+    height: 350px;
+}
+
+header .mountainimg {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 75px 75px;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    height: 50px;
+    width: 55px;
+    background-image: linear-gradient(white, rgba(235, 193, 241, 255));
+    float: left;
+    border-left: 0.5px solid grey;
+    text-align: center;
+}
+
+header ul li.listfirstelement {
+    border: none;
+}
+
+header ul li img {
+    max-width: 20px;
+    margin-top: 18px;
+}
+
+header ul li:hover {
+    cursor: pointer;
+    background-image: linear-gradient(white, rgba(182, 176, 246, 255));
+}
+
+/* css for header ends here  */
+
+/* css for introduction section starts here  */
+
+.intro {
+    position: absolute;
+    left: 43%;
+    top: 33%;
+}
+
+.intro .profimg {
+    width: 180px;
+    height: 180px;
+    border-radius: 105px;
+    background-color: white;
+    border: 10px solid white;
+}
+
+.intro h1 {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: -95px;
+    color: rgba(35, 40, 53, 255);
+    margin-bottom: 15px;
+}
+
+.greet {
+    color: rgb(150 144 144);
+    font-size: 17px;
+    margin-left: -45px;
+}
+
+.intro .mouseimg {
+    height: 40px;
+    width: 40px;
+    margin-left: 80px;
+    opacity: 0.4;
+    margin-top: 80px;
+}
+
+.intro .hireme {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(35, 40, 53, 255);
+    border-radius: 20px;
+    float: right;
+    margin-right: -450px;
+    margin-top: 80px;
+}
+
+.intro .hireme p {
+    color: red;
+    font-size: 15px;
+    margin-left: -30px;
+    margin-top: 12px;
+}
+
+.attribute {
+    height: 200px;
+    width: 100%;
+    margin-top: 27%;
+}
+
+.attribute1 {
+    height: 74%;
+    width: 18%;
+    display: inline-block;
+    border-radius: 25px;
+    border: .5px solid rgb(150 144 144);
+    padding: 30px;
+    color: rgba(35, 40, 53, 255);
+    line-height: 30px;
+}
+
+.attribute1.atr1 {
+    margin-left: 15%;
+}
+
+.attribute1.atr2 {
+    margin-left: 15px;
+}
+
+
+.imgatr {
+    max-width: 30px;
+    float: right;
+    margin-top: -20px;
+}
+
+.attributep {
+    color: rgb(150 144 144);
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.attribute1:hover {
+    background-image: linear-gradient(white, rgba(125, 148, 223, 255));
+    cursor: pointer;
+}
+
+.attribute1:hover .attributep {
+    color: black;
+}
+
+/* css for introduction section ends here  */
+
+/* css for about me section starts here  */
+
+.abtme {
+    height: 870px;
+    width: 100%;
+    background-color: rgba(35, 40, 53, 255);
+    margin-top: 85px;
+}
+
+.aboveskill {
+    height: 640px;
+    width: 70%;
+    margin-left: 15%;
+    /* background-color: aqua; */
+}
+
+.readgirlimg {
+    margin-top: 70px;
+    border-radius: 20px;
+    /* height: 485px;
+    width: 375px; */
+    max-width: 400px;
+    /* display: inline-block; */
+}
+
+.readgirlside {
+    float: right;
+    margin-top: 70px;
+    height: 485px;
+    width: 560px;
+}
+
+.uprcase {
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.heading {
+    color: white;
+    line-height: 50px;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.aboutmepara {
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.downloadcvbtn {
+    color: white;
+    background-color: rgba(234, 67, 53, 255);
+    height: 44px;
+    width: 150px;
+    border-radius: 24px;
+    border: none;
+    font-size: 13px;
+}
+
+.downloadcvbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.downloadcvbtn:hover {
+    color: rgba(35, 40, 53, 255);
+    background-color: white;
+    cursor: pointer;
+}
+
+.downloadcvbtn:hover a {
+    color: rgba(35, 40, 53, 255);
+}
+
+.circle {
+    height: 43px;
+    width: 43px;
+    background-color: rgba(234, 67, 53, 255);
+    border-radius: 50px;
+    float: right;
+    margin-right: 315px;
+}
+
+.circlesidetext {
+    font-size: 13px;
+    color: white;
+    width: max-content;
+    float: left;
+    margin-top: -32px;
+    margin-left: 223px;
+    opacity: 0.8;
+}
+
+.workdone {
+    float: left;
+}
+
+.counting {
+    color: white;
+    padding-top: 30px;
+    font-size: 33px;
+    padding-left: 15px;
+}
+
+.counting1 {
+    margin-left: 75px;
+}
+
+.counting2 {
+    margin-left: 40px;
+}
+
+.counting sup {
+    font-size: 20px;
+}
+
+.workdone1 {
+    margin: 0;
+    padding: 7px;
+}
+
+.workdone2 {
+    margin-left: 75px;
+}
+
+.workdone3 {
+    margin-left: 40px;
+}
+
+.belowskill {
+    width: 70%;
+    margin-left: 15%;
+    height: 200px;
+}
+
+.one,
+.two,
+.three {
+    height: 150px;
+    width: 23%;
+    /* background-color: bisque; */
+    margin-left: 20px;
+    float: left;
+    border-radius: 9px;
+    border: 0.5px solid rgb(150 144 144);
+}
+
+.one1 {
+    margin: 0;
+}
+
+.ek {
+    padding: 8px 0px 0px 22px;
+}
+
+.belowskill .one .logo {
+    max-width: 30px;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.logoheading {
+    color: white;
+    float: right;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-top: 23px;
+    margin-right: 40px;
+}
+
+.arwimg {
+    /* height: 34px;
+    width: 55px; */
+    max-width: 55px;
+    margin-left: 16px;
+    margin-top: 18px;
+}
+
+.one:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+/* css for about me section ends here  */
+
+/* css for Services section starts here  */
+
+.services {
+    height: 650px;
+    width: 100%;
+}
+
+.servicehead {
+    margin-top: 80px;
+    margin-left: 570px;
+}
+
+.serviceuprcase {
+    margin-left: 103px;
+}
+
+.servicebelowuprcase {
+    color: rgba(35, 40, 53, 255);
+    font-size: 40px;
+}
+
+.belowskill1 {
+    width: 70%;
+    margin-left: 15%;
+    height: 320px;
+}
+
+.two {
+    height: 300px;
+    border-radius: 0;
+    border: 0.5px solid rgb(177, 175, 175);
+}
+
+.two1 {
+    margin: 0;
+}
+
+.two .logo {
+    /* height: 30px;
+    width: 30px; */
+    max-width: 30px;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.serviceheading {
+    color: rgba(35, 40, 53, 255);
+    margin-left: 18px;
+    font-size: 20px;
+}
+
+.two:hover {
+    box-shadow: 0px 0px 26px -2px grey;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.two p {
+    margin: 0px;
+    margin-left: 18px;
+    margin-top: 19px;
+    line-height: 26px;
+}
+
+.logoipsumimg {
+    height: 128px;
+    width: 279px;
+    opacity: 0.3;
+    margin-top: 50px;
+}
+
+.logoipsumimg1 {
+    margin-left: 169px;
+}
+
+.logoipsumimg:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* css for Services section ends here  */
+
+/* css for Project section starts here  */
+
+.project {
+    height: 980px;
+    width: 100%;
+    background-color: rgba(35, 40, 53, 255);
+}
+
+.servicehead1 {
+    margin-top: 0;
+}
+
+.projectuprcase {
+    margin-left: 75px;
+    padding-top: 70px;
+}
+
+.projectheading {
+    color: white;
+    font-size: 40px;
+    margin-left: 38px;
+}
+
+.three {
+    height: 230px;
+    border-radius: 20px;
+    width: 48%;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.belowskill2 {
+    height: 242px;
+}
+
+.three1 {
+    margin: 0;
+    border: 0.5px solid rgb(177, 175, 175);
+    background-image: url(images/art.png);
+    border: none;
+}
+
+.three2 {
+    margin-left: 25px;
+    border: 0.5px solid rgb(177, 175, 175);
+    background-image: url(images/unicorn.png);
+    border: none;
+}
+
+.three3 {
+    margin: 0px;
+    border: 0.5px solid rgb(177, 175, 175);
+    background-image: url(images/artist.png);
+    border: none;
+}
+
+.three4 {
+    margin-left: 25px;
+    border: 0.5px solid rgb(177, 175, 175);
+    background-image: url(images/vsc.png);
+    border: none;
+}
+
+.ee:hover {
+    filter: grayscale(100%);
+
+}
+
+
+.portfolioname {
+    color: white;
+    margin-top: 20px;
+    margin-left: 15%;
+    opacity: 0.8;
+}
+
+.unicornstartup {
+    color: white;
+    margin-top: -68px;
+    margin-right: 36.5%;
+    opacity: 0.8;
+    float: right;
+}
+
+.viewproject {
+    color: white;
+    margin-top: 20px;
+    margin-left: 15%;
+    opacity: 0.8;
+    float: right;
+    margin-top: -21px;
+    margin-right: 41%;
+    padding-bottom: 70px;
+}
+
+.nft {
+    color: white;
+    margin-top: 80px;
+    margin-left: 15%;
+    opacity: 0.8;
+}
+
+.nftv {
+    color: white;
+    margin-top: 20px;
+    margin-left: 15%;
+    opacity: 0.8;
+}
+
+.vsc {
+    color: white;
+    margin-top: -68px;
+    margin-right: 38.5%;
+    opacity: 0.8;
+    float: right;
+}
+
+.vscv {
+    color: white;
+    margin-top: 20px;
+    margin-left: 15%;
+    opacity: 0.8;
+    float: right;
+    margin-top: -21px;
+    margin-right: 41%;
+}
+
+/* css for Project section ends here  */
+
+/* css for Team Solution section starts here  */
+
+.solution {
+    margin-top: 0px;
+    background-color: white;
+    height: 630px;
+}
+
+.sol {
+    height: 590px;
+}
+
+.solskill {
+    float: left;
+    padding-right: 30px;
+}
+
+.skillhead {
+    color: rgba(35, 40, 53, 255);
+}
+
+.skillpara {
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.firstdesign {
+    color: rgba(35, 40, 53, 255);
+}
+
+.seconddesign {
+    color: rgba(35, 40, 53, 255);
+    margin-top: 25px;
+}
+
+.firstsup {
+
+    position: relative;
+    left: 72%;
+    top: 5px;
+}
+
+.secondsup {
+
+    position: relative;
+    left: 91%;
+    top: 5px;
+}
+
+.thirdsup {
+    position: relative;
+    left: 81%;
+    top: 5px;
+}
+
+.forthsup {
+
+    position: relative;
+    left: 76%;
+    top: 5px;
+}
+
+.progbar1 {
+    height: 7px;
+    width: 98%;
+    background-color: rgba(204, 204, 204, 255);
+    border-radius: 10px;
+}
+
+.progbar2 {
+    height: 7px;
+    background-color: rgba(234, 67, 53, 255);
+    border-radius: 10px;
+}
+
+.pb1 {
+    width: 75%;
+}
+
+.pb2 {
+    width: 95%;
+}
+
+.pb3 {
+    width: 85%;
+}
+
+.pb4 {
+    width: 80%;
+}
+
+.secreadgirlimg {
+    float: right;
+}
+
+/* css for Team Solution section ends here  */
+
+
+/* css for price section starts here  */
+
+.Price {
+    height: 650px;
+}
+
+.priceservicehead {
+    margin-top: 0;
+}
+
+.chseplan {
+    margin-left: 69px;
+    padding-top: 70px;
+}
+
+.pricetable {
+    color: white;
+    font-size: 40px;
+    margin-left: 16px;
+}
+
+.forprice {
+    height: 242px;
+}
+
+.firstboxofprice {
+    margin: 0;
+    border: 0.5px solid rgba(177, 175, 175, 0.4);
+    height: 360px;
+    width: 31%;
+    border-radius: 10px;
+    color: white;
+}
+
+.secondboxofprice {
+    margin-left: 27px;
+    border: 0.5px solid rgb(177, 175, 175, .4);
+    height: 360px;
+    width: 31%;
+    border-radius: 10px;
+    color: white;
+}
+
+.rate1 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.rate2 {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.list {
+    margin-left: 60px;
+    margin-top: 40px;
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.pricesectionarwimg {
+    margin-left: 33px;
+}
+
+.ee2:hover {
+    scale: 1.05;
+}
+
+/* css for price section ends here  */
+
+/* css for testimonials section starts here  */
+
+.testimonials {
+    background-color: white;
+    height: 500px;
+}
+
+.testimonalbase {
+    height: 242px;
+}
+
+.say {
+    margin-left: 87px;
+    padding-top: 70px;
+}
+
+.our {
+    color: rgba(35, 40, 53, 255);
+    font-size: 40px;
+}
+
+.firsttesti {
+    margin: 0;
+}
+
+.secondtesti {
+    margin-left: 25px;
+}
+
+.roundpic {
+    float: left;
+}
+
+.name {
+
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.designation {
+    margin-left: 18px;
+}
+
+.aboutprofile {
+    margin-top: 35px;
+}
+
+.hov,
+.hov1 {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: rgb(150 144 144);
+    float: left;
+}
+
+.dots {
+    margin-left: 46%;
+    max-width: 5%;
+}
+
+.dot2 {
+    float: right;
+    margin-left: 21px;
+}
+
+.dot3 {
+    float: right;
+}
+
+.circle1 {
+    height: 76px;
+    width: 78px;
+    background-color: rgb(150 144 144);
+    border-radius: 50px;
+    background-image: url(images/busine.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.hov:hover {
+    background-color: rgba(35, 40, 53, 255);
+}
+
+.hov1:hover {
+    background-color: white;
+}
+
+/* css for testimonials section ends here  */
+
+/* css for blogs section starts here  */
+
+.lnews {
+    margin-left: 69px;
+    padding-top: 70px;
+}
+
+.rblogs {
+    color: white;
+    font-size: 40px;
+    margin-left: -106px;
+}
+
+.firstblog {
+    margin: 0;
+    height: 204px;
+    width: 30%;
+    border-radius: 25px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secondblog {
+    margin-left: 27px;
+    height: 204px;
+    width: 30%;
+    border-radius: 25px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blogbase1 {
+    position: relative;
+    left: 15%;
+    float: left;
+}
+
+.blogbase2 {
+    position: relative;
+    left: 285px;
+    float: left;
+}
+
+.blogbase3 {
+    position: relative;
+    left: 340px;
+    float: left;
+}
+
+.blogbasepara {
+    color: white;
+    margin-top: 15px;
+    margin-left: 0;
+    line-height: 27px;
+    opacity: 0.9;
+}
+
+/* css for blogs section ends here  */
+
+/* css for form section starts here  */
+
+.boxname {
+    margin-left: 0;
+    margin-bottom: 13px;
+}
+
+.inptboxup {
+    height: 40px;
+    width: 218px;
+    padding: auto;
+    padding-left: 13px;
+    border: .5px solid grey;
+    border-radius: 3px;
+}
+
+.rightbox {
+    float: right;
+    margin-right: 12%;
+}
+
+.msgbox {
+    height: 100px;
+    width: 477px;
+    padding: auto;
+    padding-left: 13px;
+    border: .5px solid grey;
+    border-radius: 3px;
+}
+
+.sendmsgimg {
+    margin-top: 29px;
+    margin-left: -17px;
+    height: 69px;
+    width: 167px;
+}
+
+.formrightside {
+    height: 360px;
+    width: 300px;
+    position: relative;
+    float: right;
+    top: 40%;
+    right: 10%;
+}
+
+.roundicons {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(192, 189, 189);
+    border-radius: 40px;
+    text-align: center;
+    float: left;
+}
+
+.roundiconimg {
+    height: 30px;
+    width: 30px;
+    margin-top: 14px;
+}
+
+.formrightsidetext {
+    float: right;
+    margin-right: 135px;
+    margin-top: 7px;
+}
+
+.rightone {
+    margin-left: 13px;
+}
+
+.righttwo {
+    margin-left: 13px;
+    margin-top: 5px;
+}
+
+.facebooklogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: 0.5px solid rgb(192, 189, 189);
+    text-align: center;
+}
+
+.facebookimg {
+    max-width: 20px;
+    margin-top: 9px;
+}
+
+.logo1 {
+    float: left;
+    margin-top: 147px;
+    margin-left: -58px;
+}
+
+.logo2 {
+    float: right;
+    margin-top: 92px;
+    margin-right: 197px;
+}
+
+.facebooklogo:hover{
+    background-color: rgb(192, 189, 189);
+}
+
+/* css for form section ends here  */
+
+/* css for footer starts here  */
+
+.ftr {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(35, 40, 53, 255);
+}
+
+.ftr1 {
+    color: white;
+    margin-left: 15%;
+    font-size: 12px;
+    padding-top: 22px;
+    float: left;
+}
+
+.ftr2 {
+    color: white;
+    margin-left: 80%;
+    font-size: 12px;
+    padding-top: 22px;
+}
+
+/* css for footer ends here  */
